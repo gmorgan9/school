@@ -28,7 +28,6 @@ require_once "path.php";
     
 <div class="d-block">
 <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-<?php include(ROOT_PATH . "/app/includes/class-header.php"); ?>
 </div>
   
 <!-- START MAIN -->
