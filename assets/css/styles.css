@@ -118,6 +118,7 @@ ul.breadcrumb li a:hover {
 
 .form-container form input,
 .form-container form select{
+   border-color: #000;
    font-size: 17px;
    background: #eee;
    border-radius: 5px;
