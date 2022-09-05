@@ -122,6 +122,9 @@ form .error-msg{
 }
 
 /* Sidebar */
+.list-group {
+   background-color: rgb(225, 185, 147) !important;
+}
 .sidebar {
     background-color: rgb(225, 185, 147);
     position:fixed;
