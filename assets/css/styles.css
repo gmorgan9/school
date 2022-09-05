@@ -65,6 +65,7 @@ ul.breadcrumb {
    padding-top: 5px;
    list-style: none;
    float: right !important;
+   padding-right: 15px;
 }
 ul.breadcrumb li {
    display: inline;
