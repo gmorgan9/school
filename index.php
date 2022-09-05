@@ -31,7 +31,7 @@ require_once "path.php";
   
 <!-- START MAIN -->
   <div class="main">
-  <?php include(ROOT_PATH . "/app/includes/sidebar.php") ?>
+  
     <div class="page-header mx-auto">
       <p class="page_title" style="float: left; padding-top: 2px;">Employee Information</p>
       <ul class="breadcrumb">
@@ -41,6 +41,7 @@ require_once "path.php";
     </div>
 
     <div class="page-content mx-auto mt-2">
+    <?php include(ROOT_PATH . "/app/includes/sidebar.php") ?>
     </div>
   </div>
 <!-- END MAIN -->
