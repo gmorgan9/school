@@ -88,6 +88,7 @@ if(isLoggedIn()){
       <div class="mt-2"></div>
       <input type="password" style="border-color: #000;" name="password" required placeholder="enter your password">
       </div>
+      <div class="mt-2"></div>
       <input type="submit" name="login-btn" value="Login" class="form-btn">
       <p>don't have an account? <a href="register.php">register now</a></p>
    </form>
