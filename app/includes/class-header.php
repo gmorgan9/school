@@ -1,5 +1,5 @@
 <header>
-    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <nav id="main-navbar" class="navbar navbar-expand-lg d-block navbar-light bg-white fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
                 <h3><i class="bi bi-clock"></i> School</h3>
