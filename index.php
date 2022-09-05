@@ -26,9 +26,10 @@ require_once "path.php";
 </head>
 <body>
     
+<div class="d-flex">
 <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-<?php //include(ROOT_PATH . "/app/includes/sidebar.php") ?>
 <?php include(ROOT_PATH . "/app/includes/class-header.php"); ?>
+</div>
   
 <!-- START MAIN -->
   <div class="main">
