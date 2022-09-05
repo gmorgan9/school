@@ -28,6 +28,7 @@ require_once "path.php";
     
 <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
 <?php //include(ROOT_PATH . "/app/includes/sidebar.php") ?>
+<?php include(ROOT_PATH . "/app/includes/class-header.php"); ?>
   
 <!-- START MAIN -->
   <div class="main">
