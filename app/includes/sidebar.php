@@ -1,5 +1,5 @@
-<nav id="sidebarMenu" class="sidebar collapse">
-    <div>
+<nav id="sidebarMenu" class="d-block sidebar collapse">
+    <div class="position-sticky">
         <div class="list-group list-group-flush mx-3 mt-4">
             <a href="<?php echo BASE_URL . '/pages/dashboard.php' ?>" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                 <i class="bi bi-sliders2"></i>
