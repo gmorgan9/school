@@ -39,9 +39,9 @@ require_once "path.php";
         <li>Information</li>
       </ul>
     </div>
-
-    <div class="page-content mx-auto mt-2">
     <?php include(ROOT_PATH . "/app/includes/sidebar.php") ?>
+    <div class="page-content mx-auto mt-2">
+    
     </div>
   </div>
 <!-- END MAIN -->
