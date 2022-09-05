@@ -27,10 +27,11 @@ require_once "path.php";
 <body>
     
 <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-<?php include(ROOT_PATH . "/app/includes/sidebar.php") ?>
+
   
 <!-- START MAIN -->
   <div class="main">
+  <?php include(ROOT_PATH . "/app/includes/sidebar.php") ?>
     <div class="page-header mx-auto">
       <p class="page_title" style="float: left; padding-top: 2px;">Employee Information</p>
       <ul class="breadcrumb">
