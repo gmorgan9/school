@@ -83,8 +83,10 @@ if(isLoggedIn()){
          };
       };
       ?>
+      <div class="mx-auto">
       <input type="text" name="uname" required placeholder="enter your user name">
       <input type="password" name="password" required placeholder="enter your password">
+      </div>
       <input type="submit" name="login-btn" value="Login" class="form-btn">
       <p>don't have an account? <a href="register.php">register now</a></p>
    </form>
