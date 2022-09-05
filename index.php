@@ -27,8 +27,7 @@ require_once "path.php";
 <body>
     
 <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-<div class="flex flex-grow">
-<?php include(ROOT_PATH . "/app/includes/sidebar.php") ?>
+<?php //include(ROOT_PATH . "/app/includes/sidebar.php") ?>
   
 <!-- START MAIN -->
   <div class="main">
@@ -44,7 +43,6 @@ require_once "path.php";
     </div>
   </div>
 <!-- END MAIN -->
-</div>
 
 <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
 
