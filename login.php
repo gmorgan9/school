@@ -10,44 +10,45 @@ if(isLoggedIn()){
 }
 
 
+// LOGIN
+    if(isset($_POST['login-btn'])){
 
-if(isset($_POST['login-btn'])){
-
-	$uID = mysqli_real_escape_string($conn, $_POST['userID']);
-	$fname = mysqli_real_escape_string($conn, $_POST['fname']);
-	$lname = mysqli_real_escape_string($conn, $_POST['lname']);
-	$uname = mysqli_real_escape_string($conn, $_POST['uname']);
-	$email = mysqli_real_escape_string($conn, $_POST['email']);
-	$pass = md5($_POST['password']);
-	$cpass = md5($_POST['cpassword']);
-	$loggedin = $_POST['loggedin'];
- 
-	$select = " SELECT * FROM user WHERE uname = '$uname' && password = '$pass' ";
- 
-	$result = mysqli_query($conn, $select);
- 
-	if(mysqli_num_rows($result) > 0){
- 
-	   $row = mysqli_fetch_array($result);
-	   $sql = "UPDATE user SET loggedin='1' WHERE uname='$uname'";
-	   mysqli_query($conn, $sql);
-		$_SESSION['fname']           = $row['fname'];
-		$_SESSION['uID']             = $row['userID'];
-		$_SESSION['loggedin']        = $row['loggedin'];
-		$_SESSION['user_idno']       = $row['idno'];
-		$_SESSION['lname']           = $row['lname'];
-		$_SESSION['acc_type']        = $row['acc_type'];
-		$_SESSION['uname']           = $row['uname'];
-	    $_SESSION['email']           = $row['email'];
-	    $_SESSION['pass']            = $row['password'];
-	    $_SESSION['cpass']           = $row['cpassword'];
-	   header('location:' . BASE_URL);
-	  
-	}else{
-	   $error[] = 'incorrect email or password!';
-	}
- 
- };
+    	$uID = mysqli_real_escape_string($conn, $_POST['userID']);
+    	$fname = mysqli_real_escape_string($conn, $_POST['fname']);
+    	$lname = mysqli_real_escape_string($conn, $_POST['lname']);
+    	$uname = mysqli_real_escape_string($conn, $_POST['uname']);
+    	$email = mysqli_real_escape_string($conn, $_POST['email']);
+    	$pass = md5($_POST['password']);
+    	$cpass = md5($_POST['cpassword']);
+    	$loggedin = $_POST['loggedin'];
+    
+    	$select = " SELECT * FROM user WHERE uname = '$uname' && password = '$pass' ";
+    
+    	$result = mysqli_query($conn, $select);
+    
+    	if(mysqli_num_rows($result) > 0){
+        
+    	   $row = mysqli_fetch_array($result);
+    	   $sql = "UPDATE user SET loggedin='1' WHERE uname='$uname'";
+    	   mysqli_query($conn, $sql);
+    		$_SESSION['fname']           = $row['fname'];
+    		$_SESSION['uID']             = $row['userID'];
+    		$_SESSION['loggedin']        = $row['loggedin'];
+    		$_SESSION['user_idno']       = $row['idno'];
+    		$_SESSION['lname']           = $row['lname'];
+    		$_SESSION['acc_type']        = $row['acc_type'];
+    		$_SESSION['uname']           = $row['uname'];
+    	    $_SESSION['email']           = $row['email'];
+    	    $_SESSION['pass']            = $row['password'];
+    	    $_SESSION['cpass']           = $row['cpassword'];
+    	   header('location:' . BASE_URL);
+        
+    	}else{
+    	   $error[] = 'incorrect email or password!';
+    	}
+    
+    };
+// END Login
 ?>
 <!DOCTYPE html>
 <html lang="en">
