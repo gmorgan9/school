@@ -1,21 +1,20 @@
+<?php 
+$uID = $_SESSION['uID'];
+$select = " SELECT * FROM user WHERE userID = '$uID' ";
+$result = mysqli_query($conn, $select);
+if (mysqli_num_rows($result) > 0) {
+   while($row = mysqli_fetch_assoc($result)) {
+    $fname = $row['fname'];
+    $loggedin = $row['loggedin'];
+}}  
+?>
+
 <header>
     <nav id="main-navbar" class="navbar navbar-expand-lg d-block navbar-light bg-white fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
                 <h3><i class="bi bi-clock"></i> School</h3>
             </a>
-            <?php 
-
-                $uID = $_SESSION['uID'];
-                $select = " SELECT * FROM user WHERE userID = '$uID' ";
-                $result = mysqli_query($conn, $select);
-                if (mysqli_num_rows($result) > 0) {
-                   while($row = mysqli_fetch_assoc($result)) {
-                    $fname = $row['fname'];
-                    $loggedin = $row['loggedin'];
-                }}  
-
-            ?>
             <ul class="navbar-nav ms-auto d-flex flex-row">
                 <?php
                     if($loggedin == 1) {
