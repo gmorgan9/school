@@ -1,6 +1,11 @@
 <!-- WORKING -->
 <?php
 require_once "path.php";
+session_start();
+
+if(!isLoggedIn()){
+   header('location: /login.php');
+}
 
 ?>
 
