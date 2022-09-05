@@ -123,10 +123,10 @@ form .error-msg{
 
 /* Sidebar */
 .list-group-item {
-   background-color: rgb(225, 185, 147) !important;
+   background-color: rgb(232, 211, 191) !important;
 }
 .sidebar {
-    background-color: rgb(225, 185, 147);
+    background-color: rgb(232, 211, 191);
     position:fixed;
     top: 0;
     bottom: 0;
