@@ -26,7 +26,7 @@ require_once "path.php";
 </head>
 <body>
     
-<div class="d-flex">
+<div class="d-block">
 <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
 <?php include(ROOT_PATH . "/app/includes/class-header.php"); ?>
 </div>
