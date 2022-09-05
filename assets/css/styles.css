@@ -123,7 +123,7 @@ form .error-msg{
 
 /* Sidebar */
 .sidebar {
-    /* background-color: #eee; */
+    background-color: rgb(236, 224, 213);
     position:fixed;
     top: 0;
     bottom: 0;
