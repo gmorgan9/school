@@ -4,8 +4,8 @@ session_start();
 require_once "app/database/connection.php";
 require_once "path.php";
 
-$empID = $_SESSION['empID'];
-$sql = "UPDATE employee SET loggedin='0' WHERE employeeID='$empID'";
+$uID = $_SESSION['uID'];
+$sql = "UPDATE user SET loggedin='0' WHERE userID='$uID'";
 if (mysqli_query($conn, $sql)) {
     echo "Record updated successfully";
 } else {
@@ -14,6 +14,6 @@ if (mysqli_query($conn, $sql)) {
 
 session_unset();
 session_destroy();
-header('location:' . BASE_URL . '/pages/entry/login.php');
+header('location:' . BASE_URL . '/login.php');
 
 ?>
