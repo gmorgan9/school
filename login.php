@@ -73,7 +73,7 @@ if(isLoggedIn()){
    
 
 
-<div class="circle1"
+<div class="circle"
 
 style="
    height: 400px;
