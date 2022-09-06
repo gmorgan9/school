@@ -85,6 +85,7 @@ height: 550px;
    border-radius: 15px;
    padding-bottom: 30px;
    background-color: #eee;
+   postion: absolute;
 "
 
 ></div>
