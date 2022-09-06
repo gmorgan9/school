@@ -102,15 +102,15 @@ ul.breadcrumb li a:hover {
    background-color: #fff;
 }
 .cirlce1{
-   height: 550px;
-   width: 550px;
+   height: 1150px;
+   width: 1150px;
    display: flex;
    align-items: center;
    justify-content: center;
    padding:20px;
    border-radius: 15px;
    padding-bottom: 30px;
-   background-color: #eee;
+   background-color: #000;
 }
 
 .form-container form{
