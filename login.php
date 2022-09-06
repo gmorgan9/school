@@ -72,17 +72,17 @@ if(isLoggedIn()){
 <?php include("app/includes/header.php"); ?>
    
 
+<div class="circle1"
 
+style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px;left: 150px;"
+
+>
 
 <br><br><br>
 <div class="form-container mx-auto">
 
    <form action="" method="post">
-   <div class="circle1"
 
-style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px;left: 150px;"
-
-></div>
       <h3>login now</h3>
       <?php
       if(isset($error)){
@@ -101,6 +101,7 @@ style="background-color: #eee; height: 550px; width: 550px; position: absolute; 
       <p>don't have an account? <a href="register.php">register now</a></p>
    </form>
 
+</div>
 </div>
 
 
