@@ -73,7 +73,7 @@ if(isLoggedIn()){
    
 
 <div class="mx-auto">
-<div class="circle1" style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px; display:grid-inline;"></div>
+<div class="circle1" style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px;"></div>
 </div>
 <br><br><br>
 
