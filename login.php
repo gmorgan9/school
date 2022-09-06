@@ -72,11 +72,7 @@ if(isLoggedIn()){
 <?php include("app/includes/header.php"); ?>
    
 
-<div class="circle1"
 
-style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px; top: 150px;left: 150px;"
-
-></div>
 
 <br><br><br>
 <div class="form-container mx-auto">
@@ -101,6 +97,11 @@ style="background-color: #eee; height: 550px; width: 550px; position: absolute; 
    </form>
 
 </div>
+<div class="circle1"
+
+style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px; top: 150px;left: 150px;"
+
+></div>
 
 <?php include("app/includes/footer.php"); ?>
 
