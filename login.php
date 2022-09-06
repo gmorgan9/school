@@ -76,13 +76,13 @@ if(isLoggedIn()){
 <div class="circle1"
 
 style="
-height: 550px;
+   height: 550px;
    width: 550px;
    display: flex;
    align-items: center;
    justify-content: center;
    padding:20px;
-   border-radius: 15px;
+   border-radius: 50%;
    padding-bottom: 30px;
    background-color: #eee;
    postion: absolute;
