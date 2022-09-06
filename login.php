@@ -73,9 +73,9 @@ if(isLoggedIn()){
    
 
 
-
-<br><br><br>
 <div class="circle1" style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px;">
+<br><br><br>
+
 <div class="form-container mx-auto">
 
    <form action="" method="post">
@@ -97,9 +97,9 @@ if(isLoggedIn()){
       <div class="mt-2"></div>
       <input type="submit" name="login-btn" value="Login" class="form-btn">
       <p>don't have an account? <a href="register.php">register now</a></p>
-   </form>
+    </form>
 
-</div>
+    </div>
 </div>
 
 
