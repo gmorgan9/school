@@ -73,7 +73,7 @@ if(isLoggedIn()){
    
 
 
-<div class="circle1" style="z-index:1;background-color: #eee; height: 400px; width: 400px; position: absolute; border-radius: 350px; display:grid-inline;"></div>
+<div class="circle1" style="z-index:1;background-color: #eee; height: 400px; width: 400px; position: absolute; border-radius: 350px; display: grid; align-items: center; justify-content: center;"></div>
 <br><br><br>
 
 <div class="form-container mx-auto">
