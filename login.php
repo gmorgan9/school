@@ -76,8 +76,8 @@ if(isLoggedIn()){
 <div class="circle1"
 
 style="
-   height: 550px;
-   width: 550px;
+   height: 400px;
+   width: 400px;
    display: flex;
    align-items: center;
    justify-content: center;
