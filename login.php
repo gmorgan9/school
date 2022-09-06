@@ -75,10 +75,11 @@ if(isLoggedIn()){
 
 
 <br><br><br>
+<div class="circle1" style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px;">
 <div class="form-container mx-auto">
 
    <form action="" method="post">
-   <div class="circle1" style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px;">
+   
       <h3>login now</h3>
       <?php
       if(isset($error)){
