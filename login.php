@@ -72,14 +72,14 @@ if(isLoggedIn()){
 <?php include("app/includes/header.php"); ?>
    
 
-<div class="circle1"
+<div class="circle1  mx-auto"
 
 style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px;top: 150px;left: 150px;"
 
 >
 
 <br><br><br>
-<div class="form-container mx-auto">
+<div class="form-container">
 
    <form action="" method="post">
 
