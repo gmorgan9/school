@@ -73,7 +73,7 @@ if(isLoggedIn()){
    
 
 
-<div class="circle circle1"></div>
+<div class="circle1"></div>
 <br><br><br>
 
 <div class="form-container mx-auto">
