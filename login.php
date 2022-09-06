@@ -87,7 +87,7 @@ style="
    background-color: #eee;
 "
 
-></div>
+>
 <br><br><br>
 
 <div class="form-container mx-auto">
@@ -114,7 +114,7 @@ style="
     </form>
 
 </div>
-
+</div>
 
 <?php include("app/includes/footer.php"); ?>
 
