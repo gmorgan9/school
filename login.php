@@ -78,6 +78,11 @@ if(isLoggedIn()){
 <div class="form-container mx-auto">
 
    <form action="" method="post">
+   <div class="circle1"
+
+style="background-color: #eee; height: 550px; width: 550px; position: relative; border-radius: 350px;left: 150px;"
+
+></div>
       <h3>login now</h3>
       <?php
       if(isset($error)){
@@ -97,11 +102,7 @@ if(isLoggedIn()){
    </form>
 
 </div>
-<div class="circle1"
 
-style="background-color: #eee; height: 550px; width: 550px; position: relative; border-radius: 350px;left: 150px;"
-
-></div>
 
 <?php include("app/includes/footer.php"); ?>
 
