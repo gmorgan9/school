@@ -87,7 +87,7 @@ if(isLoggedIn()){
          };
       };
       ?>
-      <div class="circle1" style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px;">
+      <div class="circle1" style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px; top: -150px">
       <div class="mx-auto">
       <input type="text" name="uname" style="border-color: #000;" required placeholder="enter your user name">
       <div class="mt-2"></div>
