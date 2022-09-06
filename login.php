@@ -76,7 +76,7 @@ if(isLoggedIn()){
 
 <br><br><br>
 <div class="form-container mx-auto">
-<div class="circle1" style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px;">
+
    <form action="" method="post">
 
       <h3>login now</h3>
@@ -87,6 +87,7 @@ if(isLoggedIn()){
          };
       };
       ?>
+      <div class="circle1" style="background-color: #eee; height: 550px; width: 550px; position: absolute; border-radius: 350px;">
       <div class="mx-auto">
       <input type="text" name="uname" style="border-color: #000;" required placeholder="enter your user name">
       <div class="mt-2"></div>
