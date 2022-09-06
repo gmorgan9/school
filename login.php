@@ -74,7 +74,7 @@ if(isLoggedIn()){
 
 <div class="circle1"
 
-style="background-color: #eee; height: 150px; width: 150px; position: absolute;"
+style="background-color: #eee; height: 150px; width: 150px; position: absolute; border-radius: 50px;"
 
 ></div>
 
